@@ -1,0 +1,62 @@
+/* respnsive */
+
+@media (max-width: 699px) {
+    #container_secundario {
+      width: 90% !important;
+    }
+  }
+  
+  @media (max-width: 468px) {
+    #container_input {
+      display: flex;
+      flex-direction: column;
+    }
+  
+    #container_input_text,
+    #container_btn {
+      width: 100% !important;
+      margin-top: 5%;
+    }
+  
+    #container_btn {
+      margin-left: 0% !important;
+    }
+  
+    #container_input::before {
+      content: "";
+      margin-top: 45% !important;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    #container_input::before {
+      content: "";
+      margin-top: 50% !important;
+    }
+  }
+  
+  @media (max-width: 375px) {
+    #container_input::before {
+      content: "";
+      margin-top: 50% !important;
+    }
+  }
+  
+  @media (max-width: 334px) {
+    #titulo {
+      font-size: 20px !important;
+      padding-top: 10% !important;
+    }
+  
+    #container_input::before {
+      content: "";
+      margin-top: 60% !important;
+    }
+  }
+  
+  @media (max-width: 270px) {
+    #container_input::before {
+      content: "";
+      margin-top: 75% !important;
+    }
+  }
